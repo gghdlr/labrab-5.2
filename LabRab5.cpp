@@ -36,12 +36,15 @@ int main()
 	int x2 = magicBow.com();
 	int x3 = magicTwoHand.com();
 	magicBow.com2(x1, x2, x3);*/
+	//АБСТРАКТНЫЙ КЛАСС 
 	magicSword.attack();
+	//ОДНОРАЗОВОЕ ОРУЖИЕ
 	oneused sword1("sword", 7, 2);
 	sword1.setUse(2);
 	sword1.attack();
 	sword1.setUse(1);
 	sword1.attack();
+	//ШАБЛОНЫ ПУНКТ 9-11
 	Player <string> right("левая рука");
 	right.setHand("правая рука");
 	cout << right.getHand() << "\n";
